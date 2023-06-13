@@ -1,0 +1,24 @@
+#logoName {
+    font-family: 'Pacifico', cursive;
+    /* text-align: center; */
+    font-size: 50px;
+    margin: 0px;
+}
+
+#logoImage {
+    height: 73px;
+    width: 73px;
+}
+
+#slogan {
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 10px;
+}
