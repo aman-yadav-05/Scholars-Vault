@@ -1,3 +1,13 @@
+body {
+    background-color: #f8f0f3;
+}
+
+.base {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
 #logoName {
     font-family: 'Pacifico', cursive;
     /* text-align: center; */
@@ -24,12 +34,14 @@
 }
 
 .nav {
+    background-color: #d9dcde;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-    border: .5px solid;
-    overflow: hidden;
+    /* border: .5px solid; */
+    /* overflow: hidden; */
     padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 
 }
 
