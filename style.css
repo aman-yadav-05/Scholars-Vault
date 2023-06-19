@@ -1,5 +1,20 @@
 body {
     background-color: #f8f0f3;
+    background-image: url('images/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg');
+    /* background-size: cover; */
+    background-size: contain;
+    /* transform: scaleX(-1); */
+    background-repeat: no-repeat;
+    /* background-image: scaleX(-1); */
+    /* background-position: center; */
+}
+
+#showAlert {
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    top: 2%;
+
 }
 
 .base {
@@ -26,15 +41,38 @@ body {
 }
 
 #container {
+    border: 1px solid;
+    width: 500px;
+    border-radius: 15px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
     display: flex;
+    position: relative;
+    left: 35%;
+    top: 30%;
     align-items: center;
     flex-direction: column;
     row-gap: 10px;
     column-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.457);
+    /* Adjust the opacity as desired */
+    backdrop-filter: blur(10px);
+    /* Applies a blur effect to the background */
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
+    /* Adds a subtle shadow effect */
 }
 
 .nav {
-    background-color: #d9dcde;
+    /* position: fixed; */
+    /* background-color: #d9dcde; */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the opacity as desired */
+    backdrop-filter: blur(10px);
+    /* Applies a blur effect to the background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow effect */
+    /* opacity: 0.5; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -50,6 +88,11 @@ body {
     flex-direction: column;
     width: 40px;
     height: 40px;
+    transition: transform 0.2s;
+}
+
+.navbarItems:hover {
+    transform: scale(1.15);
 }
 
 .navbarItems img {
@@ -59,7 +102,7 @@ body {
 
 .navbarItems a {
     text-decoration: none;
-    color: #0d6efd;
+    color: #333;
 }
 
 .logoSlogan,
@@ -74,4 +117,36 @@ body {
 
 .navbarItemsContainer {
     width: 500px;
+}
+
+.notesSection {
+    /* display: none; */
+    width: 100%;
+    height: 434px;
+    margin: 30px 0;
+    border: 1px solid;
+    display: flex;
+}
+
+.glass {
+    margin: 10px 20px;
+    padding: 15px;
+    height: 415px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-img-top {
+    width: 75px;
+    height: 75px;
 }
