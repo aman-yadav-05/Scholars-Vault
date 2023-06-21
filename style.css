@@ -1,6 +1,6 @@
 body {
     background-color: #f8f0f3;
-    background-image: url('images/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg');
+    /* background-image: url('images/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg'); */
     /* background-size: cover; */
     background-size: contain;
     /* transform: scaleX(-1); */
@@ -47,6 +47,8 @@ body {
     height: 400px;
     padding: 10px;
     /* margin: auto; */
+    margin-bottom: 500px;
+    /*this will help to achive the card of first to get out of the backgrouund window*/
     display: flex;
     position: relative;
     left: 50%;

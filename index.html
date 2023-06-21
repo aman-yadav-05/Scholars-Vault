@@ -1,44 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>csit notes</title>
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="favicon_io/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="favicon_io/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="favicon_io/favicon-16x16.png"
-		/>
-		<link rel="manifest" href="favicon_io/site.webmanifest" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
 
-	<body>
-		<!-- <div
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>csit notes</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+	<link rel="manifest" href="favicon_io/site.webmanifest" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- <div
 			class="alert alert-info alert-dismissible fade show"
 			id="showAlert"
 			role="alert"
@@ -53,512 +33,435 @@
 		</div> -->
 
 
-		<div class="nav">
-			<div class="logoSlogan">
-				<img
-					class="p-2"
-					src="images/logo-no-background.png"
-					alt="logo"
-					srcset=""
-					id="logoImage"
-				/>
-				<span class="px-2">
-					<h1 class="" id="logoName">Csit Notes</h1>
-					<h6 class="" id="slogan">
-						unleash your potential with perfect notes
-					</h6>
-				</span>
-			</div>
-			<div class="navbarItemsContainer">
-				<span class="navbarItems" id="home">
-					<a href="index.html">
-						<img src="images/house.svg" alt="home" />
-					</a>
-					<a href="index.html">Home</a>
-				</span>
-				<span class="navbarItems" id="book">
-					<a href="#"><img src="images/book.svg" alt="book" /></a>
-					<div class="dropdown">
-						<a
-							class="base btn btn-dropdown-toggle"
-							href="#"
-							role="button"
-							data-bs-toggle="dropdown"
-							aria-expanded="false"
-						>
-							Books
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#" class="dropdown-item"
-									>computer system architecture</a
-								>
-							</li>
-							<li>
-								<a href="#" class="dropdown-item">software engineering</a>
-							</li>
-							<li>
-								<a href="#" class="dropdown-item"
-									>design & analysis algorithm</a
-								>
-							</li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li><a href="#" class="dropdown-item">operating system</a></li>
-							<li>
-								<a href="#" class="dropdown-item">theory of computation</a>
-							</li>
-							<li><a href="#" class="dropdown-item">operation research</a></li>
-							<li><a href="#" class="dropdown-item">soft computing</a></li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li><a href="#" class="dropdown-item">computer graphics</a></li>
-							<li><a href="#" class="dropdown-item">data mining</a></li>
-							<li>
-								<a href="#" class="dropdown-item">artificial intelligence</a>
-							</li>
-						</ul>
-					</div>
-				</span>
-				<span class="navbarItems" id="questionPaper">
-					<a href="#">
-						<img src="images/file-earmark-pdf.svg" alt="pdf" />
-					</a>
-					<div class="dropdown">
-						<a
-							class="base btn btn-dropdown-toggle"
-							href="#"
-							role="button"
-							data-bs-toggle="dropdown"
-							aria-expanded="false"
-						>
-							Question
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#" class="dropdown-item"
-									>computer system architecture</a
-								>
-							</li>
-							<li>
-								<a href="#" class="dropdown-item">software engineering</a>
-							</li>
-							<li>
-								<a href="#" class="dropdown-item"
-									>design & analysis algorithm</a
-								>
-							</li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li><a href="#" class="dropdown-item">operating system</a></li>
-							<li>
-								<a href="#" class="dropdown-item">theory of computation</a>
-							</li>
-							<li><a href="#" class="dropdown-item">operation research</a></li>
-							<li><a href="#" class="dropdown-item">soft computing</a></li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li><a href="#" class="dropdown-item">computer graphics</a></li>
-							<li><a href="#" class="dropdown-item">data mining</a></li>
-							<li>
-								<a href="#" class="dropdown-item">artificial intelligence</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li><a href="#" class="dropdown-item disabled">1st sem</a></li>
-							<li><a href="#" class="dropdown-item disabled">2nd sem</a></li>
-							<li><a href="#" class="dropdown-item disabled">3rd sem</a></li>
-						</ul>
-					</div>
-				</span>
-				<span class="navbarItems" id="syllabus">
-					<a target="_blank" href="documents/bsc cs syllabus.pdf">
-						<img src="images/file-earmark-pdf.svg" alt="" />
-					</a>
-					<a href="documents/bsc cs syllabus.pdf" target="_blank">Syllabus</a>
-				</span>
-				<span class="navbarItems" id="samarthPortal">
-					<a href="https://ggv.samarth.edu.in/index.php">
-						<img src="images/box-arrow-in-right.svg" alt="login" />
-					</a>
-					<a
-						href="https://ggv.samarth.edu.in/index.php/site/login"
-						target="_blank"
-						>samarth</a
-					>
-				</span>
-				<span class="navbarItems">
-					<a href="login.html">
-						<img src="images/person-circle.svg" alt="personImage" />
-					</a>
-					<a href="login.html">login </a>
-				</span>
-			</div>
-		</div>
-		<div id="container">
-			<h2>First Year</h2>
-			<span>
-				<a href="#first">
-					<button
-						id="firstSem"
-						class="btn btn-outline-primary btn-lg"
-						onclick="openFirst()"
-					>
-						1st Semester
-					</button>
-				</a>
-				<a href="#second">
-					<button id="secondSem" class="btn btn-outline-primary btn-lg">
-						2nd Semester
-					</button>
-				</a>
-			</span>
-			<h2>Second Year</h2>
-			<span>
-				<a href="#third">
-					<button id="thirdSem" class="btn btn-outline-primary btn-lg">
-						3rd Semester
-					</button>
-				</a>
-				<a href="#fourth">
-					<button id="fourthSem" class="btn btn-outline-primary btn-lg">
-						4th Semester
-					</button>
-				</a>
-			</span>
-			<h2>Third Year</h2>
-			<span>
-				<a href="#fifth">
-					<button id="sixthSem" class="btn btn-outline-primary btn-lg">
-						5th Semester
-					</button>
-				</a>
-				<a href="#sixth">
-					<button id="fifthSem" class="btn btn-outline-primary btn-lg">
-						6th Semester
-					</button>
-				</a>
+	<div class="nav">
+		<div class="logoSlogan">
+			<img class="p-2" src="images/logo-no-background.png" alt="logo" srcset="" id="logoImage" />
+			<span class="px-2">
+				<h1 class="" id="logoName">Csit Notes</h1>
+				<h6 class="" id="slogan">
+					unleash your potential with perfect notes
+				</h6>
 			</span>
 		</div>
-		<div id="first" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/2-2-c++-png-clipart.png"
-					class="card-img-top"
-					alt="cpp image"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Programming on c/c++</h5>
-					<p class="card-text">
-						faculty: Vikas Pandey <br />
-						Course code: SSCICR0101L
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+		<div class="navbarItemsContainer">
+			<span class="navbarItems" id="home">
+				<a href="index.html">
+					<img src="images/house.svg" alt="home" />
+				</a>
+				<a href="index.html">Home</a>
+			</span>
+			<span class="navbarItems" id="book">
+				<a href="#"><img src="images/book.svg" alt="book" /></a>
+				<div class="dropdown">
+					<a class="base btn btn-dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false">
+						Books
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#" class="dropdown-item">computer system architecture</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-item">software engineering</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-item">design & analysis algorithm</a>
+						</li>
+						<li>
+							<hr class="dropdown-divider" />
+						</li>
+						<li><a href="#" class="dropdown-item">operating system</a></li>
+						<li>
+							<a href="#" class="dropdown-item">theory of computation</a>
+						</li>
+						<li><a href="#" class="dropdown-item">operation research</a></li>
+						<li><a href="#" class="dropdown-item">soft computing</a></li>
+						<li>
+							<hr class="dropdown-divider" />
+						</li>
+						<li><a href="#" class="dropdown-item">computer graphics</a></li>
+						<li><a href="#" class="dropdown-item">data mining</a></li>
+						<li>
+							<a href="#" class="dropdown-item">artificial intelligence</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/diagram-3.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Data structures</h5>
-					<p class="card-text">
-						Faculty: Vivek Sarathe <br />
-						course code: SSCICR0102L
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+			</span>
+			<span class="navbarItems" id="questionPaper">
+				<a href="#">
+					<img src="images/file-earmark-pdf.svg" alt="pdf" />
+				</a>
+				<div class="dropdown">
+					<a class="base btn btn-dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false">
+						Question
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#" class="dropdown-item">computer system architecture</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-item">software engineering</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-item">design & analysis algorithm</a>
+						</li>
+						<li>
+							<hr class="dropdown-divider" />
+						</li>
+						<li><a href="#" class="dropdown-item">operating system</a></li>
+						<li>
+							<a href="#" class="dropdown-item">theory of computation</a>
+						</li>
+						<li><a href="#" class="dropdown-item">operation research</a></li>
+						<li><a href="#" class="dropdown-item">soft computing</a></li>
+						<li>
+							<hr class="dropdown-divider" />
+						</li>
+						<li><a href="#" class="dropdown-item">computer graphics</a></li>
+						<li><a href="#" class="dropdown-item">data mining</a></li>
+						<li>
+							<a href="#" class="dropdown-item">artificial intelligence</a>
+						</li>
+						<li>
+							<hr class="dropdown-divider" />
+						</li>
+						<li><a href="#" class="dropdown-item disabled">1st sem</a></li>
+						<li><a href="#" class="dropdown-item disabled">2nd sem</a></li>
+						<li><a href="#" class="dropdown-item disabled">3rd sem</a></li>
+					</ul>
 				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/laptop.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Lab based on c/c++</h5>
-					<p class="card-text">
-						faculty: Vikas Pandey <br />
-						Course code: SSCICR0101P
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+			</span>
+			<span class="navbarItems" id="syllabus">
+				<a target="_blank" href="documents/bsc cs syllabus.pdf">
+					<img src="images/file-earmark-pdf.svg" alt="" />
+				</a>
+				<a href="documents/bsc cs syllabus.pdf" target="_blank">Syllabus</a>
+			</span>
+			<span class="navbarItems" id="samarthPortal">
+				<a href="https://ggv.samarth.edu.in/index.php">
+					<img src="images/box-arrow-in-right.svg" alt="login" />
+				</a>
+				<a href="https://ggv.samarth.edu.in/index.php/site/login" target="_blank">samarth</a>
+			</span>
+			<span class="navbarItems">
+				<a href="login.html">
+					<img src="images/person-circle.svg" alt="personImage" />
+				</a>
+				<a href="login.html">login </a>
+			</span>
+		</div>
+	</div>
+	<div id="container">
+		<h2>First Year</h2>
+		<span>
+			<a href="#first">
+				<button id="firstSem" class="btn btn-outline-primary btn-lg" onclick="openFirst()">
+					1st Semester
+				</button>
+			</a>
+			<a href="#second">
+				<button id="secondSem" class="btn btn-outline-primary btn-lg">
+					2nd Semester
+				</button>
+			</a>
+		</span>
+		<h2>Second Year</h2>
+		<span>
+			<a href="#third">
+				<button id="thirdSem" class="btn btn-outline-primary btn-lg">
+					3rd Semester
+				</button>
+			</a>
+			<a href="#fourth">
+				<button id="fourthSem" class="btn btn-outline-primary btn-lg">
+					4th Semester
+				</button>
+			</a>
+		</span>
+		<h2>Third Year</h2>
+		<span>
+			<a href="#fifth">
+				<button id="sixthSem" class="btn btn-outline-primary btn-lg">
+					5th Semester
+				</button>
+			</a>
+			<a href="#sixth">
+				<button id="fifthSem" class="btn btn-outline-primary btn-lg">
+					6th Semester
+				</button>
+			</a>
+		</span>
+	</div>
+	<div id="first" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/2-2-c++-png-clipart.png" class="card-img-top" alt="cpp image" />
+			<div class="card-body">
+				<h5 class="card-title">Programming on c/c++</h5>
+				<p class="card-text">
+					faculty: Vikas Pandey <br />
+					Course code: SSCICR0101L
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
-		<div id="second" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/3-2-java-free-download-png-thumb.png"
-					class="card-img-top"
-					alt="cpp image"
-					width="256"
-					height="177"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Programming on java</h5>
-					<p class="card-text">
-						faculty: Akhilesh Shriwas <br />
-						Course code: SSCICR0203L
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/activity.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Discrete structures</h5>
-					<p class="card-text">
-						Faculty: Vivek Sarathe <br />
-						Course code: SSCICR0204L
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/laptop.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Lab based on java</h5>
-					<p class="card-text">
-						Faculty: Akhilesh Shriwas <br />
-						Course code: SSCICR0203P
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/diagram-3.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Data structures</h5>
+				<p class="card-text">
+					Faculty: Vivek Sarathe <br />
+					course code: SSCICR0102L
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
-		<div id="third" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/router.svg"
-					class="card-img-top"
-					alt="cpp image"
-					width="256"
-					height="177"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Internet Technologies</h5>
-					<p class="card-text">
-						faculty: Ram Ratan Khuntey <br />
-						<!-- Course code:  -->
-						Description: Advance java & JavaScript
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/database.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Database Management System</h5>
-					<p class="card-text">
-						Faculty: Prashant Vaishnav <br />
-						Description: Basics, RDBMS, SQL
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/cld-cloud-computer-network-svgrepo-com.svg"
-					class="card-img-top"
-					alt="..."
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Computer Network Theory</h5>
-					<p class="card-text">
-						Faculty: Amit Chandanan <br />
-						Description: How internet works, protocols, www and https
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/laptop.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Lab based on DBMS</h5>
-					<p class="card-text">
-						Faculty: Prashant Vaishnav <br />
-						Description: SQL queries related lab based question.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/laptop.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Lab based on c/c++</h5>
+				<p class="card-text">
+					faculty: Vikas Pandey <br />
+					Course code: SSCICR0101P
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
-		<div id="fourth" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/cpu.svg"
-					class="card-img-top"
-					alt="cpp image"
-					width="256"
-					height="177"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Computer system architecture</h5>
-					<p class="card-text">
-						faculty: Pushplata Pujari <br />
-						Description: Basics of hardware, number system, CPU, memory and i/o
-						orgainstion
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/code-slash.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Software engineering</h5>
-					<p class="card-text">
-						faculty: Vikas Pandey <br />
-						Description: introduction, SDLC, Project Management
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/laptop.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Lab based on software engineering</h5>
-					<p class="card-text">
-						faculty: Vikas Pandey <br />
-						Description: process of software dev., question based on SDLC
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/bezier.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Design and analysis of algorithm</h5>
-					<p class="card-text">
-						faculty: Abhishek Patel <br />
-						Description: intro to algorithm, Searching and sorting techniques.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+	</div>
+	<div id="second" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/3-2-java-free-download-png-thumb.png" class="card-img-top" alt="cpp image" width="256"
+				height="177" />
+			<div class="card-body">
+				<h5 class="card-title">Programming on java</h5>
+				<p class="card-text">
+					faculty: Akhilesh Shriwas <br />
+					Course code: SSCICR0203L
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
-		<div id="fifth" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/motherboard.svg"
-					class="card-img-top"
-					alt="cpp image"
-					width="256"
-					height="177"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">operating system</h5>
-					<p class="card-text">
-						Faculty: Prashant Vaishnav <br />
-						Description: Intro to OS, process, file & i/o management.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/bounding-box.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">Theory of computation</h5>
-					<p class="card-text">
-						Faculty: Pushplata Pujari <br />
-						Description: Languages, Grammars, Automata, turing machines.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/journal-text.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">operational research</h5>
-					<p class="card-text">
-						Faculty: Sushma Jaiswal <br />
-						Decription: Intro to OR, LPP, Duality, Transportation Problems.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/dna-svgrepo-com.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">soft computing</h5>
-					<p class="card-text">
-						Faculty: Babita Manjhi <br />
-						Description: Intro to Neural networks, types of network, Models,
-						Genetic Algorithm
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img src="images/laptop.svg" class="card-img-top" alt="..." />
-				<div class="card-body">
-					<h5 class="card-title">lab based on soft computing</h5>
-					<p class="card-text">
-						Faculty: Babita Manjhi <br />
-						Description: MATLAB, implementing gates using perceptron, mp neuron,
-						hebb network with MATLAB
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/activity.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Discrete structures</h5>
+				<p class="card-text">
+					Faculty: Vivek Sarathe <br />
+					Course code: SSCICR0204L
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
-		<div id="sixth" class="notesSection">
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/artificial-intelligence-svgrepo-com.svg"
-					class="card-img-top"
-					alt="cpp image"
-					width="256"
-					height="177"
-				/>
-				<div class="card-body">
-					<h5 class="card-title">artificial intelligence</h5>
-					<p class="card-text">
-						Faculty: Amit Chandanan <br />
-						Description: intro to AI, Problem solving and searching techniques,
-						natural language processing.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/computer-graphics-image-picture-display-svgrepo-com.svg"
-					class="card-img-top"
-					alt="..."
-				/>
-				<div class="card-body">
-					<h5 class="card-title">Computer graphics</h5>
-					<p class="card-text">
-						Faculty: Pushplata Pujari <br />
-						Description: introduction, Modelling and fundamental techniques.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card glass" style="width: 18rem">
-				<img
-					src="images/analysis-client-data-svgrepo-com.svg"
-					class="card-img-top"
-					alt="..."
-				/>
-				<div class="card-body">
-					<h5 class="card-title">data mining</h5>
-					<p class="card-text">
-						Faculty: Babita Manjhi <br />
-						Description: Intro to DM, Data warehouse, OLAP-OLTP, Data
-						Processing.
-					</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/laptop.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Lab based on java</h5>
+				<p class="card-text">
+					Faculty: Akhilesh Shriwas <br />
+					Course code: SSCICR0203P
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
 			</div>
 		</div>
+	</div>
+	<div id="third" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/router.svg" class="card-img-top" alt="cpp image" width="256" height="177" />
+			<div class="card-body">
+				<h5 class="card-title">Internet Technologies</h5>
+				<p class="card-text">
+					faculty: Ram Ratan Khuntey <br />
+					<!-- Course code:  -->
+					Description: Advance java & JavaScript
+				</p>
+				<a href="html/thirdSem.html" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/database.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Database Management System</h5>
+				<p class="card-text">
+					Faculty: Prashant Vaishnav <br />
+					Description: Basics, RDBMS, SQL
+				</p>
+				<a href="html/thirdSem.html" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/cld-cloud-computer-network-svgrepo-com.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Computer Network Theory</h5>
+				<p class="card-text">
+					Faculty: Amit Chandanan <br />
+					Description: How internet works, protocols, www and https
+				</p>
+				<a href="html/thirdSem.html" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/laptop.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Lab based on DBMS</h5>
+				<p class="card-text">
+					Faculty: Prashant Vaishnav <br />
+					Description: SQL queries related lab based question.
+				</p>
+				<a href="html/thirdSem.html" class="btn btn-primary">View</a>
+			</div>
+		</div>
+	</div>
+	<div id="fourth" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/cpu.svg" class="card-img-top" alt="cpp image" width="256" height="177" />
+			<div class="card-body">
+				<h5 class="card-title">Computer system architecture</h5>
+				<p class="card-text">
+					faculty: Pushplata Pujari <br />
+					Description: Basics of hardware, number system, CPU, memory and i/o
+					orgainstion
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/code-slash.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Software engineering</h5>
+				<p class="card-text">
+					faculty: Vikas Pandey <br />
+					Description: introduction, SDLC, Project Management
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/laptop.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Lab based on software engineering</h5>
+				<p class="card-text">
+					faculty: Vikas Pandey <br />
+					Description: process of software dev., question based on SDLC
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/bezier.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Design and analysis of algorithm</h5>
+				<p class="card-text">
+					faculty: Abhishek Patel <br />
+					Description: intro to algorithm, Searching and sorting techniques.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+	</div>
+	<div id="fifth" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/motherboard.svg" class="card-img-top" alt="cpp image" width="256" height="177" />
+			<div class="card-body">
+				<h5 class="card-title">operating system</h5>
+				<p class="card-text">
+					Faculty: Prashant Vaishnav <br />
+					Description: Intro to OS, process, file & i/o management.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/bounding-box.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Theory of computation</h5>
+				<p class="card-text">
+					Faculty: Pushplata Pujari <br />
+					Description: Languages, Grammars, Automata, turing machines.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/journal-text.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">operational research</h5>
+				<p class="card-text">
+					Faculty: Sushma Jaiswal <br />
+					Decription: Intro to OR, LPP, Duality, Transportation Problems.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/dna-svgrepo-com.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">soft computing</h5>
+				<p class="card-text">
+					Faculty: Babita Manjhi <br />
+					Description: Intro to Neural networks, types of network, Models,
+					Genetic Algorithm
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/laptop.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">lab based on soft computing</h5>
+				<p class="card-text">
+					Faculty: Babita Manjhi <br />
+					Description: MATLAB, implementing gates using perceptron, mp neuron,
+					hebb network with MATLAB
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+	</div>
+	<div id="sixth" class="notesSection">
+		<div class="card glass" style="width: 18rem">
+			<img src="images/artificial-intelligence-svgrepo-com.svg" class="card-img-top" alt="cpp image" width="256"
+				height="177" />
+			<div class="card-body">
+				<h5 class="card-title">artificial intelligence</h5>
+				<p class="card-text">
+					Faculty: Amit Chandanan <br />
+					Description: intro to AI, Problem solving and searching techniques,
+					natural language processing.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/computer-graphics-image-picture-display-svgrepo-com.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">Computer graphics</h5>
+				<p class="card-text">
+					Faculty: Pushplata Pujari <br />
+					Description: introduction, Modelling and fundamental techniques.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+		<div class="card glass" style="width: 18rem">
+			<img src="images/analysis-client-data-svgrepo-com.svg" class="card-img-top" alt="..." />
+			<div class="card-body">
+				<h5 class="card-title">data mining</h5>
+				<p class="card-text">
+					Faculty: Babita Manjhi <br />
+					Description: Intro to DM, Data warehouse, OLAP-OLTP, Data
+					Processing.
+				</p>
+				<a href="#" class="btn btn-primary">View</a>
+			</div>
+		</div>
+	</div>
 
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-			crossorigin="anonymous"
-		></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
 
-		<script src="script.js"></script>
-	</body>
+	<script src="script.js"></script>
+</body>
+
 </html>
