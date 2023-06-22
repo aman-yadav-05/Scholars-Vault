@@ -24,7 +24,8 @@ body {
 }
 
 #logoName {
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Comforter', cursive;
     /* text-align: center; */
     font-size: 50px;
     margin: 0px;
@@ -36,7 +37,9 @@ body {
 }
 
 #slogan {
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Comforter', cursive; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
 }
 

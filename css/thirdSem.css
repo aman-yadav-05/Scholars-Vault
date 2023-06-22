@@ -1,0 +1,24 @@
+.navbar {
+    justify-content: center;
+}
+
+.content {
+    padding: 25px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.glass {
+    margin: 10px 20px;
+    padding: 15px;
+    height: 250px;
+}
+
+/* giving display flex so that our card can be arranged in :horizontal manner  */
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+}
