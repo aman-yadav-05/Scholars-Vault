@@ -1,0 +1,20 @@
+1. a symbolic address consist not more than 3 alphanumeric characters.
+
+2.First characters must be a letter
+
+3.a symbolic address in label field is terminated by  a comma so that itll be recognized as label by assembler
+
+4. instruction field can specify memory refrence instruction or non memory reffrence instruction or psuedo instruction with or without operand
+
+5. a memory refrence instruction occupies two or three symbol separated by spaces. the first 3 letter must be defining an mri operation
+
+assembly language program to find 2's complement of a number:
+
+		ORG 505	/origin of program is location 505
+		LDA A	/load decimal number A to AC
+		CMA	/complement AC
+		INC	/increment AC
+		STA A	/store 2's complement of A
+		HLT	/halt computer
+A,		DEC N	/signed decimal number N (decimal operand)
+		END	/end of symbolic program
