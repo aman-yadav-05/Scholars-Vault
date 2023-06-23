@@ -1,0 +1,18 @@
+RISC instruction set size is small.
+cisc instruction set size is large.
+
+risc contains simple and basic instruction which can built complex instruction.
+cisc contains large number of complex instruction.
+
+risc uses fixed format of 32 bits
+cisc uses variable format of 16-64 bit
+
+risc uses no external memory for calculation.
+cisc uses external memory for the calculation.
+
+risc uses pipelining.
+cisc uses no pipelining technique.
+
+code expansion is problem in risc.
+code expansion is not a problem in cisc. 
+

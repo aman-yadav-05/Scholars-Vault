@@ -1,0 +1,24 @@
+instrucion code(16 bit instruction format): an instruction code is a group of bits that instructs the computere perform  a specific operation . It usually divided into parts. each having its own operational interpretetion.
+		the important part in instruction code is opcode( operational code) it tells about the operation of in instruction code.operation code consist of 2^n bits or less. this also specifiess the set of microoperation. generally opcode is of 4bit and the address is of 12 bits. If an operation in instrruction code doesn't need an operatnd from memory than the rest of bits can be used for other purpose such as complement ac, cleat ac, etc.
+
+Accumulator(ac); computers that have single processor registers are known as accumulators. The operation is performed with memory operand and content of accumulator.
+
+I BIT IN INSTRUCTION FORMAT FOR ADDRESSING:
+1-> indirect address : in instruction format the address bits store the adddress of operand if the address bit stores the address another instruction format which holds the address of operand then this addressing will be known as indirect address.
+0-> direct address: in instruction format the address bits store the address of operand and data will be fetched directly.
+
+Effective address is the address of operand in computation type instruction or the target address in branch type instruction.
+
+BUS: collection of wires which connects memory unit , register and logic control unit etc. are connected it is used to perform the operation using less number of registers.
+control unit: tells when to load read or write etc. 
+clock: is also used in common bus system it helps to maintain the efficiency and synchronise all the register. It will not be added to OUTR & INPR.
+
+sequence: pc->ar->mu->dr->alu->ac->tr(if needed)-> outr.
+steps: for common bus system: Y=A+B
+	1.Go to PC it tells the address of operand which is in memory.
+	2.load operands in AC (one at a time)
+	3.due to load-> the memory unit will perform the write operation in operand(data).
+	4.data is stored in DR.
+	5.now DR will send data to adder & logic circuit and it will send data to AC and in AC data will be loaded and load will be active. 
+	6. repeat for b also.
+	7. after getting the data of B the adder and logic unit will add those numbers and store that in AC after this AC will send data to OUTR.
