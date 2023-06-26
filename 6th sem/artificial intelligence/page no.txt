@@ -1,0 +1,29 @@
+unit 1
+introduction to ai - 22
+background and application - 26
+turing test - 23
+rational agents - 25,57
+agents and environment - 55
+behaviour - 57
+structure of agent - 67
+simplex reflex agent - 69
+model based reflex agent - 71
+goal based agent - 73
+utitlity based agent - 74
+
+
+unit 2
+problem characteristic - 87
+breadth first search - 102
+depth first search - 106
+greedy best first search - 113
+a* search -114
+heuristic function 8 puzzle problem - 123
+hill climbing search - 143
+constraint satisfaction problems - 223
+game playing - 182
+	pruning - 183
+	game tree- 183
+min max = 185
+	algorithm - 186
+	alpha beta pruning - 188
