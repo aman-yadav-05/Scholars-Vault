@@ -13,3 +13,9 @@ A shortcut to "samarth portal" and "syllabus" is also provided.
 
 Feel free to give any suggestion, I will love to hear from you guys, contact me at: <br>
 📧<pdxaman05@gmail.com>
+<br>
+
+## Links
+https://scholars-vault.netlify.app/ 
+<br>
+https://aman-yadav-05.github.io/Scholars-Vault/
