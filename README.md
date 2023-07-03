@@ -1,21 +1,36 @@
-# Scholar's Vault 📑
+# Scholar's Vault
 
-A college project which provide notes to all(most) subjects available in our course. <br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/NETLIFY_SITE_ID_HERE)
+[![GitHub Pages](https://github.com/aman-yadav-05/Scholars-Vault/actions/workflows/github-pages.yml/badge.svg)](https://github.com/aman-yadav-05/Scholars-Vault/actions/workflows/github-pages.yml)
 
-## Description
+Scholar's Vault is a web development project that aims to provide a repository of notes, study materials, question papers, and book references for scholars. The project's goal is to create a centralized platform where users can access educational resources and engage in knowledge-sharing.
 
-This website uses personal pdf notes. Online refrence notes and other sources to provide notes. <br>
-Refrence books are also available for most of the subjects. <br>
-A shortcut to "samarth portal" and "syllabus" is also provided.
-<br>
+## Project Sites
 
-## contact info
+- [Netlify Site](https://scholars-vault.netlify.app/)
+- [GitHub Pages Site](https://aman-yadav-05.github.io/Scholars-Vault/)
 
-Feel free to give any suggestion, I will love to hear from you guys, contact me at: <br>
-📧<pdxaman05@gmail.com>
-<br>
+## Features
 
-## Links
-https://scholars-vault.netlify.app/ 
-<br>
-https://aman-yadav-05.github.io/Scholars-Vault/
+- Browse and download notes, study materials, and question papers
+- Access a curated collection of book references for various subjects
+- User-friendly interface with search and filtering options
+- Contact us at [pdxaman05@gmail.com](mailto:pdxaman05@gmail.com) for any inquiries, suggestions, or collaborations
+
+## Contributing
+
+We welcome contributions from the community to enhance the Scholar's Vault project. If you'd like to contribute, please follow these steps:
+
+1. Fork the repository and clone it to your local machine.
+2. Create a new branch for your feature/fix.
+3. Make your changes and test thoroughly.
+4. Commit your changes with descriptive commit messages.
+5. Push your changes to your forked repository.
+6. Open a pull request, and we'll review your changes.
+
+Feel free to reach out to us via email or open an issue if you have any questions or need assistance.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
