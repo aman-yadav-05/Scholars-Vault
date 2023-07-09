@@ -50,6 +50,7 @@ body {
     margin: 0px;
 }
 
+
 #container {
     /* border: 1px solid; */
     width: 500px;
@@ -154,17 +155,22 @@ body {
     height: 380px;
 }
 
+.card-img-top:hover {
+    fill: #0079ba;
+}
+
 .card {
     display: flex;
     align-items: center;
+    color: #666;
     box-shadow: 0 4px 10px rgb(186, 182, 182);
-
+    background-color: #edeef0;
     /* transition: transform 0.5s; */
 }
 
 .card:hover {
-    color: #666;
-    transform: translateY(-3px);
+    color: #000000;
+    /* transform: translateY(-3px); */
 }
 
 .card-body {
