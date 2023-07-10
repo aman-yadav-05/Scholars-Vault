@@ -1,16 +1,19 @@
 html {
     scroll-behavior: smooth;
+    background: rgb(195, 186, 238);
+    background: linear-gradient(90deg, rgba(195, 186, 238, 1) 0%, rgba(239, 236, 243, 1) 59%, rgba(221, 223, 252, 1) 100%);
 }
 
 body {
-    background-color: #fff;
+    background: rgb(195, 186, 238);
+    background: linear-gradient(90deg, rgba(195, 186, 238, 1) 0%, rgba(239, 236, 243, 1) 59%, rgba(221, 223, 252, 1) 100%);
     /* background-image: url('images/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg'); */
     /* background-size: cover; */
-    background-size: contain;
-    background-image: url('images/background\ home.jpg');
+    /* background-size: contain; */
+    /* background-image: url('images/background\ home.jpg'); */
 
     /* transform: scaleX(-1); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     color: #303030;
     /* background-image: scaleX(-1); */
     /* background-position: center; */
@@ -57,14 +60,15 @@ body {
     border-radius: 15px;
     height: 400px;
     padding: 10px;
+    /* z-index: -1; */
     /* margin: auto; */
-    margin-bottom: 500px;
+    margin-top: 100px;
     /*this will help to achive the card of first to get out of the backgrouund window*/
     display: flex;
     position: relative;
-    left: 50%;
+    /* left: 50%;
     top: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%); */
     align-items: center;
     flex-direction: column;
     row-gap: 10px;
@@ -163,8 +167,9 @@ body {
     display: flex;
     align-items: center;
     color: #666;
-    box-shadow: 0 4px 10px rgb(186, 182, 182);
-    background-color: #edeef0;
+    background-color: rgba(255, 255, 255, 0.457);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 10px rgb(3, 3, 3);
     /* transition: transform 0.5s; */
 }
 
@@ -228,9 +233,36 @@ body {
     position: fixed;
     bottom: 2%;
     right: 1%;
-    box-shadow: 0 0 10px rgb(105, 150, 248);
+    box-shadow: 0 0 10px #c5bcee;
+    background: #b1a3ed;
+    border-color: #b1a3ed;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
+    transition: ease 0.5s;
+}
+
+.circle:hover {
+    transform: scale(1.25);
+    background: #b1a3ed;
+}
+
+.img-content {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.img-content img {
+    width: 600px;
+    border-radius: 1rem;
+    height: 600px;
+}
+
+.dropdown-menu:active {
+    /* overflow: visible;
+     */
+
+    z-index: 2;
 }

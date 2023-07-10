@@ -6,6 +6,11 @@
     padding: 25px;
 }
 
+body {
+    background: rgb(195, 186, 238);
+    background: linear-gradient(90deg, rgba(195, 186, 238, 1) 0%, rgba(239, 236, 243, 1) 59%, rgba(221, 223, 252, 1) 100%);
+}
+
 .card {
     display: flex;
     align-items: center;
